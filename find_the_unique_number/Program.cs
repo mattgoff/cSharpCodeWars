@@ -15,7 +15,6 @@ namespace find_the_unique_number
 
         public static int GetUnique(IEnumerable<int> numbers)
         {
-            //your code
             var count = from n in numbers
                         group n by n into g
                         let numCount = g.Count()
