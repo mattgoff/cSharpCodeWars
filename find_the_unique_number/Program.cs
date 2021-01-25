@@ -8,7 +8,7 @@ namespace find_the_unique_number
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
             var results1 = GetUnique(new [] {3, 2, 2, 2});
             System.Console.WriteLine($"Expected 1 got {results1}");
         }
